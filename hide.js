@@ -4,11 +4,11 @@
     const content = document.createElement("div");
     const footer = document.createElement("footer");
     const footerBtn = document.createElement("ui5-button");
-    const myElement = document.getElementById("ENGAGEMENT_CARDS-sectionLabel").parentNode.nodeName;
+    //const myElement = document.getElementById("ENGAGEMENT_CARDS-sectionLabel").parentNode.nodeName;
     // set attributes
     dialog.setAttribute("header-text", "Third Party JavaScript");
     footer.setAttribute("slot", "footer");
-    myElement.style.color = "red";
+    //myElement.style.color = "red";
     // content
     content.innerHTML = "This dialog was created by third party JS file";
     content.style.padding = "1rem";
