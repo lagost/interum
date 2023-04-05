@@ -1,3 +1,7 @@
+window.onload = function () {
+  const myElement = document.getElementById("ENGAGEMENT_CARDS-sectionLabel");
+  myElement.style.color = "red";
+};
 (function () {
     // create dialog elements
     const dialog = document.createElement("ui5-dialog");
