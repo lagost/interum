@@ -1,4 +1,4 @@
-window.onload = function () {
+parent.window.onload = function () {
   const myElement = document.getElementById("ENGAGEMENT_CARDS-sectionLabel");
   myElement.style.color = "red";
 };
@@ -14,7 +14,7 @@ window.onload = function () {
     dialog.setAttribute("header-text", "Third Party JavaScript");
     footer.setAttribute("slot", "footer");
     // content
-    content.innerHTML = "This dialog was created by 3 party JS file";
+    content.innerHTML = "This dialog was created by a party JS file";
     content.style.padding = "1rem";
     // footer btn
     footerBtn.onclick = () => dialog.close();
