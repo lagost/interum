@@ -4,6 +4,8 @@
     const content = document.createElement("div");
     const footer = document.createElement("footer");
     const footerBtn = document.createElement("ui5-button");
+    const myElement = document.getElementById("ENGAGEMENT_CARDS-sectionLabel");
+  myElement.style.color = "red";
     // set attributes
     dialog.setAttribute("header-text", "Third Party JavaScript");
     footer.setAttribute("slot", "footer");
