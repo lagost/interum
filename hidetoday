@@ -4,7 +4,7 @@ function () {
     const content = document.createElement("div");
     const footer = document.createElement("footer");
     const footerBtn = document.createElement("ui5-button");
-    const myElement = document.getElementById("ENGAGEMENT_CARDS-sectionLabel");
+    const myElement = document.getElementById("ENGAGEMENT_CARDS-sectionLabel").parentNode.nodeName;;
   myElement.style.color = "red";
     // set attributes
     dialog.setAttribute("header-text", "Third Party JavaScript");
