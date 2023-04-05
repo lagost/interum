@@ -10,7 +10,7 @@
     dialog.setAttribute("header-text", "Third Party JavaScript");
     footer.setAttribute("slot", "footer");
     // content
-    content.innerHTML = "This dialog was created by third party JS file";
+    content.innerHTML = "This dialog was created by 3 party JS file";
     content.style.padding = "1rem";
     // footer btn
     footerBtn.onclick = () => dialog.close();
